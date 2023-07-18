@@ -1,0 +1,1132 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #07203F;
+}
+
+.wrapper{
+    padding-left: 180px;
+    padding-right: 180px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    gap: 493px;
+    padding-top: 53px;
+    padding-bottom: 53px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    max-width: 761px;    
+}
+
+.nickname{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    max-width: 286px;
+}
+
+.nav_link{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+
+}
+
+a:hover{
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+.bio{
+    display: flex;
+    flex-direction: row;
+    padding-top: 117px;
+    padding-bottom: 117px;
+    gap: 168px;
+    width: 100%;    
+}
+
+.bio-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+    padding-bottom: 144px;
+    color: #D9D9D9;
+    max-width: 605px;
+
+}
+
+.bio-title{
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+.bio-description{
+    padding-top: 32px;
+    padding-bottom: 66px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;    
+}
+
+.contact-button-text{
+    border-radius: 30px;
+    width: 100%;
+    padding: 40px 75px;
+    color: #000000;
+    background: #D9D9D9;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.contact-button-text:hover{
+    background-color: yellow;
+}
+
+.bio-photo{
+    max-width: 767px;
+}
+
+.picture{
+    border-radius: 383.5px;
+    min-width: 767px;
+    min-height: 767px;
+}
+
+
+
+
+
+
+
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    background: #EADED4;
+}
+
+.skills-title{
+    color: #333333;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+
+.skills-squares{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 249px;
+    padding-top: 60px;
+    gap: 20px;
+}
+
+.skills-squares-html{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    color: #FFFFFF;
+    background: #07203F;
+    text-transform: uppercase;
+    padding: 206px 141px 206px 142px;
+    min-width: 500px;
+    min-height: 500px;
+
+}
+
+.skills-squares-css{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;    
+    color: #FFFFFF;
+    background: #D9AA90;
+    text-transform: uppercase;
+    padding: 206px 177px 206px 177px;
+    min-width: 500px;
+    min-height: 500px;
+
+}
+
+.skills-squares-js{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;    
+    color: #FFFFFF;
+    background: #07203F;
+    text-transform: uppercase;
+    padding: 206px 206px 206px 207px;
+    min-width: 500px;
+    min-height: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-title{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+}
+
+.projects-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    padding-bottom: 203.36px;
+}
+
+.project-1{
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+    align-items: center;
+}
+
+.project-pic{
+    max-width: 760px;
+    max-height: 516px;
+}
+
+.project-title-description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #D9D9D9;
+
+
+}
+
+.project-title{
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78px;
+    text-transform: uppercase;
+    max-width: 347px;
+
+}
+
+.project-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    max-width: 605px;
+
+}
+
+.project-2{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 175px;
+    align-items: center;
+}
+
+.project-3{
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 249px;
+    background: #EADED4;
+}
+
+.contacts-title{
+    color: #333333;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+}
+
+.contacts-squares{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;    
+}
+
+.contacts-squares-github{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70.32px;
+    min-width: 500px;
+    min-height: 500px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;    
+    color: #FFFFFF;
+    background: #07203F;
+    text-transform: uppercase;
+    padding: 130px 37.17px 112px 36px;
+}
+
+.contacts-squares-github-link{
+    justify-content: center;
+    min-width: 427px;
+    min-height: 99px;
+    background: #D9D9D9;
+    color: #000000;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.contacts-squares-github-link:hover{
+    background: yellow;
+}
+
+.contacts-squares-telegram{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70.32px;
+    min-width: 500px;
+    min-height: 500px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;    
+    color: #FFFFFF;
+    background: #D9AA90;
+    text-transform: uppercase;
+    padding: 130px 37.17px 112px 36px;
+}
+
+.contacts-squares-telegram-link{
+    justify-content: center;
+    min-width: 427px;
+    min-height: 99px;
+    background: #D9D9D9;
+    color: #000000;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.contacts-squares-telegram-link:hover{
+    background: yellow;
+}
+
+.contacts-squares-telephone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70.32px;
+    min-width: 500px;
+    min-height: 500px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;    
+    color: #FFFFFF;
+    background: #07203F;
+    text-transform: uppercase;
+    padding: 130px 37.17px 112px 36px;
+}
+
+.contacts-squares-telephone-link:hover{
+    background: yellow;
+}
+
+.contacts-squares-telephone-link{
+    justify-content: center;
+    min-width: 427px;
+    min-height: 99px;
+    background: #D9D9D9;
+    color: #000000;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+
+
+
+
+
+
+
+.footer-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 493px;
+    padding-top: 53px;
+    padding-bottom: 53px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 360px){
+
+    .wrapper{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .container-header{
+        flex-direction: row;
+        gap: 61px;
+        padding-top: 56px;
+        padding-bottom: 55px;
+    }
+
+    .navigation{
+        flex-direction: column;
+        gap: 20px;
+        max-width: 123px;
+        line-height: 20px;
+        text-transform: uppercase;    
+    }
+    
+    .nickname{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        max-width: 172px;
+    }
+    
+    .nav_link{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 48px;
+        text-decoration: underline;
+        color: #FFFFFF;    
+    }
+    
+    .bio{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 60px;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .bio-text{
+        padding-top: 20px;
+        color: #D9D9D9;
+        max-width: 341px;
+    
+    }
+    
+    .bio-title{
+        font-size: 36px;
+    }
+    
+    .bio-description{
+        padding-top: 20px;
+        padding-bottom: 70px;
+        font-size: 24px;
+        line-height: 28px;    
+    }
+    
+    .contact-button-text{
+        border-radius: 30px;
+        width: 100%;
+        padding: 20px 38px;
+        color: #000000;
+        background: #D9D9D9;
+        font-size: 20px;
+        line-height: 25px;
+        text-transform: uppercase;
+    }
+    
+    .bio-photo{
+        max-width: 230px;
+    }
+    
+    .picture{
+        min-width: 230px;
+        min-height: 230px;
+    }
+
+
+
+
+
+    .skills-title{
+        color: #333333;
+        font-size: 36px;
+        line-height: 44px;
+        padding-top: 50px;
+        text-transform: uppercase;
+    }
+    
+    .skills-squares{
+        flex-direction: column;
+        padding-bottom: 116px;
+        padding-top: 40px;
+        gap: 10px;
+    }
+    
+    .skills-squares-html{
+        font-size: 24px;
+        line-height: 29px;
+        padding: 61px 38.61px 60px 38.39px;
+        min-width: 150px;
+        min-height: 150px;    
+    }
+    
+    .skills-squares-css{
+        font-size: 24px;
+        line-height: 29px;
+        padding: 61px 51.61px 60px 49.39px;
+        min-width: 150px;
+        min-height: 150px;
+    
+    }
+    
+    .skills-squares-js{
+        font-size: 24px;
+        line-height: 29px;
+        padding: 61px 60.61px 60px 60.39px;
+        min-width: 150px;
+        min-height: 150px;    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .projects-title{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    
+    .projects-cards{
+        gap: 100px;
+        padding-bottom: 85.61px;
+    }
+    
+    .project-1{
+        flex-direction: column-reverse;
+        gap: 15px;
+        align-items: flex-start;
+    }
+    
+    .project-pic{
+        max-width: 390.28px;
+        max-height: 264.81px;
+    }
+    
+    .project-title-description{
+        gap: 10px;
+    }
+    
+    .project-title{
+        font-size: 24px;
+        line-height: 29px;  
+    }
+    
+    .project-description{
+        font-size: 20px;
+        line-height: 23px;
+        max-width: 246px;    
+    }
+    
+    .project-2{
+        flex-direction: column-reverse;
+        gap: 15px;
+        align-items:flex-end;
+    }
+    
+    .project-3{
+        flex-direction: column-reverse;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .contacts{
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    
+    .contacts-title{
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 30px;
+    }
+    
+    .contacts-squares{
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .contacts-squares-github{
+        gap: 16.39px;
+        min-width: 150px;
+        min-height: 150px;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 43.42px 11.36px 34.29px 10.75px;
+    }
+    
+    .contacts-squares-github-link{
+        min-width: 127.89px;
+        min-height: 29.21px;
+        font-size: 11.36px;
+        line-height: 14px;
+    }
+    
+    .contacts-squares-telegram{  
+        gap: 16.39px;
+        min-width: 150px;
+        min-height: 150px;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 42px 11.01px 34.29px 11.1px;
+    }
+    
+    .contacts-squares-telegram-link{
+        min-width: 127.89px;
+        min-height: 29.21px;
+        font-size: 11.36px;
+        line-height: 14px;
+    }
+    
+    .contacts-squares-telephone{
+        gap: 16.39px;
+        min-width: 150px;
+        min-height: 150px;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 42px 11.01px 34.29px 11.1px;
+    } 
+    
+    .contacts-squares-telephone-link{
+        min-width: 127.89px;
+        min-height: 29.21px;
+        font-size: 11.36px;
+        line-height: 14px;
+    }
+
+
+
+
+    .footer-bar{
+        gap: 61px;
+        padding-top: 53px;
+        padding-bottom: 53px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 1024px) and (min-width: 360px){
+
+        .wrapper{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+    
+    
+        .container-header{
+            flex-direction: row;
+            gap: 260px;
+            padding-top: 59px;
+            padding-bottom: 59px;
+        }
+    
+        .navigation{
+            flex-direction: column;
+            gap: 40px;
+            max-width: 410px;
+            line-height: 20px;
+            text-transform: uppercase;    
+        }
+        
+        .nickname{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 29px;
+            color: #FFFFFF;
+            max-width: 286px;
+        }
+        
+        .nav_link{
+            font-size: 40px;
+        }
+        
+        .bio{
+            flex-direction: column-reverse;
+            align-items: center;
+            padding-top: 30px;
+            padding-bottom: 106px;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .bio-text{
+            padding-top: 20px;
+            color: #D9D9D9;
+            max-width: 605px;
+            padding-bottom: 0;        
+        }
+        
+        .bio-title{
+            font-size: 64px;
+        }
+        
+        .bio-description{
+            padding-top: 60px;
+            padding-bottom: 60px;
+            font-size: 24px;
+            line-height: 28px;    
+        }
+        
+        .contact-button-text{
+            border-radius: 30px;
+            width: 100%;
+            padding: 40px 75px;
+            color: #000000;
+            background: #D9D9D9;
+            font-size: 40px;
+            line-height: 35px;
+            text-transform: uppercase;
+        }
+        
+        .bio-photo{
+            max-width: 540px;
+        }
+        
+        .picture{
+            min-width: 540px;
+            min-height: 540px;
+        }
+    
+    
+    
+    
+    
+        .skills-title{
+            color: #333333;
+            font-size: 72px;
+            line-height: 44px;
+            padding-top: 102px;
+            text-transform: uppercase;
+        }
+        
+        .skills-squares{
+            flex-direction: column;
+            padding-bottom: 0px;
+            padding-top: 60px;
+            gap: 10px;
+        }
+        
+        .skills-squares-html{
+            font-size: 72px;
+            min-width: 500px;
+            min-height: 500px;
+            position: relative;
+            justify-content: center;
+            left: -100px;
+        }
+        
+        .skills-squares-css{
+            font-size: 72px;
+            min-width: 500px;
+            min-height: 500px;
+            position: relative;
+            justify-content: center;
+            left: 30px;
+            top: -160px;
+        }
+        
+        .skills-squares-js{
+            font-size: 72px;
+            min-width: 500px;
+            min-height: 500px;
+            position: relative;
+            justify-content: center;
+            left: 160px;
+            top: -320px;   
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        .projects-title{
+            padding-top: 100px;
+            padding-bottom: 60px;
+            font-size: 72px;
+            line-height: 39px;
+        }
+        
+        .projects-cards{
+            gap: 100px;
+            padding-bottom: 129px;
+        }
+        
+        .project-1{
+            flex-direction: column-reverse;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .project-pic{
+            max-width: 760.5px;
+            max-height: 516px;
+        }
+        
+        .project-title-description{
+            gap: 20px;
+            max-width: 819px;
+        }
+        
+        .project-title{
+            font-size: 64px;
+            line-height: 78px;
+            max-width: fit-content;
+        }
+        
+        .project-description{
+            font-size: 36px;
+            line-height: 42px;
+            max-width: fit-content;
+        }
+        
+        .project-2{
+            flex-direction: column-reverse;
+            gap: 40px;
+            align-items:center;
+        }
+        
+        .project-3{
+            flex-direction: column-reverse;
+            gap: 40px;
+            align-items: center;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        .contacts{
+            padding-top: 100px;
+            padding-bottom: 151px;
+        }
+        
+        .contacts-title{
+            font-size: 72px;
+            line-height: 24px;
+            padding-bottom: 60px;
+        }
+        
+        .contacts-squares{
+            display: flex;
+            flex-direction: column; 
+        }
+        
+        .contacts-squares-github{
+            gap: 70.32px;
+            min-width: 500px;
+            min-height: 500px;
+            font-size: 72px;
+            line-height: 87px;
+            position: relative;
+            justify-content: center;
+        
+        }
+        
+        .contacts-squares-github-link{
+            min-width: 427px;
+            min-height: 99px;
+            font-size: 40px;
+            line-height: 48px;
+            text-transform: uppercase;
+        }
+        
+        .contacts-squares-telegram{  
+            gap: 70.32px;
+            min-width: 500px;
+            min-height: 500px;
+            font-size: 72px;
+            line-height: 87px;     
+            position: relative;
+            justify-content: center;
+        }
+        
+        .contacts-squares-telegram-link{
+            min-width: 427px;
+            min-height: 99px;
+            font-size: 40px;
+            line-height: 48px;
+            text-transform: uppercase;
+        }
+        
+        .contacts-squares-telephone{
+            gap: 70.32px;
+            min-width: 500px;
+            min-height: 500px;
+            font-size: 72px;
+            line-height: 87px;
+            position: relative;
+            justify-content: center;
+        } 
+        
+        .contacts-squares-telephone-link{
+            min-width: 427px;
+            min-height: 99px;
+            font-size: 40px;
+            line-height: 48px;
+            text-transform: uppercase;
+        }
+    
+    
+    
+    
+        .footer-bar{
+            gap: 260px;
+            padding-top: 59px;
+            padding-bottom: 59px;
+        }
+
+
+}
+
+
+
+
+
+
